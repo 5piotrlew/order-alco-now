@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <title>Rozkręć imprezę już teraz !!!</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-   <header>
-      <h2>Nie czekaj! Podaj adres dostawy i ciesz się imprezą!</h2>
-       <div class="lokalizacja col-1-2">
-           <form action="">
-               <!-- tu wstaw ikone -->
-               <input type="text" placeholder="Podaj adres dostawy" name="adres_dostawy" autocomplete="" autofocus>
-               <input type="submit" value="Zatwierdź">
-           </form>
-       </div>
-       <div id="map" class="col-1-2" style="width:400px;height:400px;">
-   </header>
-   <section class="specialne_oferty">
-      
-       
-   </section>
-   
-   
-   
-   
-   
-   
-   
-   <script src="js/main.js"></script> 
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmHwPjp_aGkarUhmEtMY-zSTpTBdLwUOk&callback=myMap"></script>
+    <header>
+        <h2>Nie czekaj! Podaj adres dostawy i ciesz się imprezą!</h2>
+        <div class="lokalizacja col-1-2">
+            <form action="">
+                <!-- tu wstaw ikone -->
+                <input type="text" placeholder="Podaj adres dostawy" name="adres_dostawy" autocomplete="" autofocus>
+                <input type="submit" value="Zatwierdź">
+            </form>
+        </div>
+        <div id="map" class="col-1-2" style="width:400px;height:400px;">
+    </header>
+    <section class="specialne_oferty">
+        <div class="col-1-2">
+            <p>Szybka dostawa na terenie całej Warszawy!</p>
+            <div id="slider">Stock... Zoladkowa itd...</div>
+        </div>
+        <div class="col-1-2">
+            SLIDER obrazki
+        </div>
+    </section>
+    <section>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div id="main">
+            
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Zobacz nasze menu!</span>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmHwPjp_aGkarUhmEtMY-zSTpTBdLwUOk&callback=myMap"></script>
 </body>
+
 </html>
