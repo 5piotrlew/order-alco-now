@@ -4,3 +4,12 @@ body {
     background-color: #eee;
 }
 
+header {
+    margin: 0 30px;
+}
+
+.col-1-2 {
+    width: 49%;
+    display: block;
+    float: left;
+}
