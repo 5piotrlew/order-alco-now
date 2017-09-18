@@ -1,10 +1,13 @@
+/* General styles - start */
 body {
     margin: 0;
     box-sizing: border-box;
     background-color: #eee;
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
 }
 
-header {
+section {
     margin: 0 30px;
 }
 
@@ -14,12 +17,7 @@ header {
     float: left;
 }
 
-body {
-    font-family: "Lato", sans-serif;
-    transition: background-color .5s;
-}
-
-
+/* General styles - stop */
 
 .sidenav {
     height: 100%;
@@ -59,9 +57,7 @@ body {
     transition: margin-left .5s;
     padding: 16px;
     margin-bottom: 0;
-    position: absolute;
-    bottom: 0;
-    right: 25%;
+    
     
 }
 
