@@ -11,13 +11,28 @@ section {
     margin: 0 30px;
 }
 
-.col-1-2 {
-    width: 49%;
-    display: block;
-    float: left;
+/* General styles - stop */
+
+/* section - lokalizacja - start */
+
+body {
+    opacity: 1;
+    transition: 2.5s opacity;
 }
 
-/* General styles - stop */
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+input[type="text"] {
+    width: 130px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+    width: 60%;
+}
+
 
 .sidenav {
     height: 100%;

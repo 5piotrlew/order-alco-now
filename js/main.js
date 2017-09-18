@@ -16,3 +16,17 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
 }
+
+document.body.className += " fade-out";
+
+/* efekt opacity z opoznieniem zmienic na scroll cos tam */
+function usun() {    
+    document.querySelector('body').classList.remove('fade-out');    
+}
+
+function hej() {
+    setTimeout(usun, 1);
+}
+window.onload = hej();
+
+/* koniec efektu */
